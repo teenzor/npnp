@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Linktree</title>
+</head>
+
+<body>
+    <main>
+        <img src="img/IMG profile.webp" alt="profile" class="img-profile">
+        <h1>eucr</h1>
+        <h2>👨🏻‍💻</h2>
+
+        <section>
+            <h3>🍂 Links 🍃</h3>
+            <br>
+            <div class="container-grid">
+
+                <div>
+                    <img src="img/icons8-instagram-208.png" alt="img" class="icon-ig">
+                    <h4>instagram</h4>
+                </div>
+                <div>
+                    <img src="img/icons8-whatsapp-500.png" alt="img" class="icons-wt">
+                    <h4>whatsApp</h4>
+                </div>
+                <div>
+                    <img src="img/icons8-linkedin-500.png" alt="img" class="icons-link">
+                    <h4>linkedin</h4>
+                </div>
+
+            </div>
+            <footer>
+                <p>&copy; <span id="ano"></span> Developed by <span>@crd_7_7</span></p>
+            </footer>
+
+        </section>
+
+    </main>
+
+    <script>
+        document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>
