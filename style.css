@@ -10,25 +10,24 @@
     box-sizing: border-box;
 }
 
-html {
-    min-height: 100vh;
-}
-
 body {
     font-family: 'amiko';
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
     background-color: rgb(79, 79, 204);
     text-align: center;
     color: aliceblue;
 }
 
 main {
-    margin: 10rem;
+    padding: 2rem 0rem;
+    margin: 3.3rem 0rem;
+    max-width: 355px;
+    width: 340px;
     height: 35rem;
     width: 25rem;
-    padding: 4rem 0rem 2rem 0rem;
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.897) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     background-color: rgb(76, 33, 192);
@@ -66,13 +65,21 @@ h4 {
     padding-top: .8rem;
 }
 
+.container-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .93rem;
+}
+
+
 .icon-ig {
     width: 2.3rem;
 
 }
 
 .icons-wt {
-    width: 2.5rem;
+    width: 2.4rem;
 }
 
 .icons-link {
@@ -84,59 +91,15 @@ img {
 }
 
 footer {
-    margin-top: 2.3rem;
+    margin-top: 3rem;
     text-align: center;
+    width: 100%;
 }
 
 p {
-    font-size: .70rem;
+    font-size: 12px;
 }
 
 span {
     color: rgb(238, 136, 40);
-}
-
-/* Responsivo */
-@media (max-width: 744px) {
-    body {
-        height: 100vh;
-    }
-
-
-    main {
-        padding: 2rem 0rem;
-        margin: 3.3rem 0rem;
-        max-width: 90%;
-    }
-
-    .container-grid {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: .93rem;
-    }
-
-    .icon-ig {
-        width: 2.3rem;
-
-    }
-
-    .icons-wt {
-        width: 2.4rem;
-    }
-
-    .icons-link {
-        width: 2.5rem;
-    }
-
-    footer {
-        margin-top: 3rem;
-        text-align: center;
-        width: 100%;
-    }
-
-    p {
-        font-size: 12px;
-    }
-
 }
