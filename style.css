@@ -22,20 +22,15 @@ body {
 }
 
 main {
-    padding: 2rem 0rem;
-    margin: 3.3rem 0rem;
+    padding: 1.8rem 0rem;
     max-width: 355px;
     width: 340px;
-    height: 35rem;
+    height: 31rem;
     width: 25rem;
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.897) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     background-color: rgb(76, 33, 192);
     border: 2.5px solid rgb(240, 248, 255);
-}
-
-section {
-    margin-top: 1rem;
 }
 
 section div {
@@ -45,7 +40,7 @@ section div {
 }
 
 .img-profile {
-    width: 8rem;
+    width: 7rem;
     border-radius: 50%;
     border: 2.5px solid aliceblue;
     object-fit: cover;
@@ -53,7 +48,7 @@ section div {
 
 h1 {
     padding-top: .8rem;
-    font-size: 2.4rem;
+    font-size: 1.7rem;
 }
 
 h2 {
@@ -91,7 +86,7 @@ img {
 }
 
 footer {
-    margin-top: 3rem;
+    margin-top: 2.2rem;
     text-align: center;
     width: 100%;
 }
