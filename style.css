@@ -22,10 +22,10 @@ body {
 }
 
 main {
-    padding: 1.8rem 0rem;
-    max-width: 355px;
+    padding: 1.4rem 0rem;
+    max-width: 320px;
     width: 340px;
-    height: 31rem;
+    height: 27rem;
     width: 25rem;
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.897) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -36,7 +36,7 @@ main {
 section div {
     display: inline-block;
     padding: 0rem 1rem;
-    margin-top: .8rem;
+
 }
 
 .img-profile {
@@ -86,13 +86,13 @@ img {
 }
 
 footer {
-    margin-top: 2.2rem;
+    margin-top: 1.6rem;
     text-align: center;
     width: 100%;
 }
 
 p {
-    font-size: 12px;
+    font-size: 9px;
 }
 
 span {
